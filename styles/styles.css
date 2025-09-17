@@ -13,15 +13,15 @@
 
 header {
     display: flex;
-    justify-content: center;
-    gap: 18%;
-    padding: 3%;
+    justify-content: space-around;
+    /* gap: 18%; */
+    padding: 3% 12%;
     background-color: rgba(50, 52, 85, 0.95);
 }
 
 .linea {
     background-color: grey;
-    width: 589%;
+    width: 565%;
     height: 1px;
     margin-bottom: 70px;
     margin-top: 30px;
@@ -36,7 +36,9 @@ header {
 .ref {
     display: flex;
     gap: 50px;
+    font-size: 14px;
 }
+
 .ref a {
     text-decoration: none;
     color: #C9CADC;
@@ -48,14 +50,59 @@ header {
     background-color: rgba(50, 52, 85, 0.95);
     color: white;
     font-family: "Raleway";
-    font-size: 40px;
+    font-size: 33px;
 }
 
 .multi p {
     font-size: 20px;
-        padding-top: 10px; 
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.find {
+    background-color: #E84546;
+    color: white;
+    height: 5vh;
+    width: 12vw;
+    border-style: none;
+    border-radius: 3px;
+    margin-bottom: 10%;
 }
 
 /* .multi h1 {
     
 } */
+
+/* .section2 {
+
+} */
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 3% 22%;
+    gap: 5%;
+
+}
+
+.grid1 h2 {
+    font-size: 15px;
+    font-family: "Raleway";
+    padding-bottom: 5%;
+}
+
+.grid1 p {
+    font-family: "Raleway";
+    font-size: 15px;
+    font-weight: 300;
+    color: #8B8B8D;
+}
+
+.cell1 {}
+
+.grid1 img {
+    padding-bottom: 5%;
+    padding-top: 20%;
+}

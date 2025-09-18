@@ -98,11 +98,49 @@ header {
     font-size: 15px;
     font-weight: 300;
     color: #8B8B8D;
+    width: 10rem;
 }
 
-.cell1 {}
+.cell1 {
+    place-items: center;
+}
+
+.cell2 {
+    place-items: center;
+}
+
+.cell3 {
+    place-items: center;
+}
+
+.cell4 {
+    place-items: center;
+}
+
+.cell5 {
+    place-items: center;
+}
+
+.cell6 {
+    place-items: center;
+}
 
 .grid1 img {
     padding-bottom: 5%;
     padding-top: 20%;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: "Raleway";
+}
+
+.grid3 p{
+    width: 16rem;
 }

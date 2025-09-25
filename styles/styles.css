@@ -227,24 +227,24 @@ header {
     width: 50vw;
 }
 
-.integerCont {
-    
-}
+.integerCont {}
 
 .cellInteger {
     background-color: #523549;
     color: white;
+    padding: 12% 0% 0% 10%;
 }
 
 .italic {
     font-family: "Cardo";
     font-style: italic;
-    font-size: 25px;
+    font-size: 34px;
+    width: 25vw;
 }
 
 .susan {
     font-family: "Raleway";
-    font-size: 10px;
+    font-size: 13px;
+    padding-top: 3%;
+    font-weight: 600;
 }
-
-

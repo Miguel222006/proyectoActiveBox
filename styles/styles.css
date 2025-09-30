@@ -248,3 +248,39 @@ header {
     padding-top: 3%;
     font-weight: 600;
 }
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section6 h1 {
+    font-family: "Raleway";
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.section6 p {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.download {
+    margin: 2% 43% 5% 43%;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    background-color: #E84546;
+    border-style: none;
+    border-radius: 2px;
+}
+
+.section7 {
+    display: grid;
+    background-color: #3A3E63;
+    color: white;
+}

@@ -238,16 +238,49 @@ header {
 .italic {
     font-family: "Cardo";
     font-style: italic;
-    font-size: 34px;
+    font-size: 30px;
     width: 25vw;
 }
 
 .susan {
     font-family: "Raleway";
-    font-size: 13px;
+    font-size: 10px;
     padding-top: 3%;
     font-weight: 600;
+    padding-bottom: 10%;
 }
+
+.puntos {
+    display: flex;
+    gap: 5px;
+    margin-left: 30%;
+}
+
+.punto {
+    width: 12px;
+    height: 12px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.uno1 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tres3 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cuatro4 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cinco5 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
 
 .section6 {
     display: flex;
@@ -277,10 +310,51 @@ header {
     background-color: #E84546;
     border-style: none;
     border-radius: 2px;
+    font-size: 10px;
 }
 
 .section7 {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 20%;
     background-color: #3A3E63;
+    color: white;
+    font-family: "Raleway";
+}
+
+.box {
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 13px;
+}
+
+.box p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(122, 126, 155);
+}
+
+.box img {
+    margin-top: 10px;
+    border: 2px solid white;
+    /* padding: 7px; */
+    height: 5vh;
+}
+
+footer {
+    background-color: #313455;
+    text-align: center;
+    font-size: 12px;
+    padding: 2%;
+    font-family: "Raleway";
+}
+
+footer p {
+    color: rgb(122, 126, 155);
+}
+
+footer span {
     color: white;
 }

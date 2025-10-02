@@ -32,7 +32,6 @@ header {
     margin-left: 7%;
 } */
 
-.imgHead {}
 
 .ref {
     display: flex;
@@ -154,7 +153,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 99.4%;
+    width: 100%;
     height: 100%;
     background: rgba(30, 0, 0, 0.7);
     color: white;
@@ -165,6 +164,7 @@ header {
     opacity: 0;
     transition: opacity 0.3s ease;
     font-family: "Raleway";
+    z-index: 1;
 }
 
 .grid-item:hover .overlay {
@@ -358,3 +358,114 @@ footer p {
 footer span {
     color: white;
 }
+
+/* INICIO RESPONSIVE 1279 */
+@media (max-width: 1279px) {
+
+    .imgHead {
+        zoom: 0.7;
+    }
+
+    .ref {
+        gap: 16px;
+        font-size: 12px;
+    }
+
+    .linea {
+        width: 453%;
+    }
+
+    .multi {
+        font-size: 20px;
+    }
+
+    .multi p {
+        font-size: 14px;
+    }
+
+    .find {
+        height: 6vh;
+        width: 15vw;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+
+    .grid1 img {
+        zoom: 0.8;
+    }
+
+    .grid1 h2 {
+        font-size: 12px;
+    }
+
+    .grid1 p {
+        font-size: 10px;
+    }
+
+    .overlay {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .grid-item:hover .overlay {
+        opacity: 1;
+    }
+
+    .grid3 {
+        zoom: 0.5;
+    }
+
+    .grid3 h2 {
+        font-size: 23px;
+    }
+
+    .grid3 p {
+        font-size: 15px;
+    }
+
+    .italic {
+        font-size: 20px;
+    }
+
+    .susan {
+        font-size: 8px;
+    }
+
+    .punto {
+        width: 8px;
+        height: 8px;
+    }
+
+    .section6 h1 {
+        font-size: 20px;
+    }
+
+    .section6 p {
+    font-size: 10px;
+}
+
+.box h3 {
+    font-size: 12px;
+}
+
+.box p {
+    font-size: 10px;
+}
+
+.facebook {
+    padding: 7px 9px 5px 9px;
+}
+
+.twitter {
+    padding: 9px 6px 5px 6px;
+}
+
+.linkedin {
+    padding: 7px 7px 5px 7px;
+}
+
+footer {
+    font-size: 10px;
+}
+}
+/* FIN RESPONSIVE 1279 */

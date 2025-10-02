@@ -173,11 +173,12 @@ header {
 
 .grid3 {
     display: grid;
-    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-columns: repeat(4, 270px);
     font-family: "Raleway";
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 5% 15% 5% 15%;
     zoom: 0.8;
+    gap: 30px;
 }
 
 .grid3 h2 {
@@ -441,31 +442,99 @@ footer span {
     }
 
     .section6 p {
-    font-size: 10px;
-}
+        font-size: 10px;
+    }
 
-.box h3 {
-    font-size: 12px;
-}
+    .box h3 {
+        font-size: 12px;
+    }
 
-.box p {
-    font-size: 10px;
-}
+    .box p {
+        font-size: 10px;
+    }
 
-.facebook {
-    padding: 7px 9px 5px 9px;
-}
+    .facebook {
+        padding: 7px 9px 5px 9px;
+    }
 
-.twitter {
-    padding: 9px 6px 5px 6px;
-}
+    .twitter {
+        padding: 9px 6px 5px 6px;
+    }
 
-.linkedin {
-    padding: 7px 7px 5px 7px;
-}
+    .linkedin {
+        padding: 7px 7px 5px 7px;
+    }
 
-footer {
-    font-size: 10px;
-}
+    footer {
+        font-size: 10px;
+    }
 }
 /* FIN RESPONSIVE 1279 */
+
+
+/* INICIO RESPONSIVE 920 */
+@media (max-width: 920px) {
+    .imgHead {
+        zoom: 0.6;
+    }
+
+    .ref {
+        font-size: 10px;
+    }
+
+    .multi {
+        font-size: 17px;
+    }
+
+    .multi p {
+        font-size: 12px;
+    }
+
+    .find {
+        width: 20vw;
+        font-size: 10px;
+    }
+
+    .grid1 img {
+        zoom: 0.7;
+    }
+
+    .italic {
+        font-size: 17px;
+    }
+
+    .susan {
+        font-size: 7px;
+    }
+
+    .punto {
+        width: 7px;
+        height: 7px;
+    }
+
+    .download {
+        margin: 2% 41% 5% 41%;
+        font-size: 8px;
+    }
+
+    .box h3 {
+        font-size: 10px;
+    }
+
+    .box p {
+        font-size: 9px;
+    }
+
+    .facebook {
+        padding: 7px 8px 5px 8px;
+    }
+
+    .linkedin {
+        padding: 7px 6px 5px 6px;
+    }
+
+    footer {
+        font-size: 9px;
+    }
+}
+/* FIN RESPONSIVE 920 */

@@ -258,10 +258,10 @@
         </div>
 
         <div class="box">
-                <h3>ABOUT ACTIVEBOX</h3>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor
-                    fringilla</p>
-            </div>
+            <h3>ABOUT ACTIVEBOX</h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor
+                fringilla</p>
+        </div>
     </section>
 
     <footer>
@@ -286,6 +286,18 @@
             item.addEventListener("mouseleave", () => {
                 sound.pause();
                 sound.currentTime = 0; // lo deja listo otra vez
+            });
+
+            // --- Móviles (tap/click) ---
+            item.addEventListener("click", () => {
+                // Activa overlay
+                item.classList.toggle("active");
+
+                // Reproduce el sonido
+                if (sound) {
+                    sound.currentTime = 0;
+                    sound.play();
+                }
             });
         });
     </script>
